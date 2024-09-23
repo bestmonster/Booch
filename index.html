@@ -6,11 +6,13 @@
     <title>SUPEE</title>
     <!-- css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Style ควรเก็บไว้ในโฟลเดอร์ CSS เลย -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
 <!-- Header -->
-    <div class="container">
+    <!-- <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
           <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none  ibm-plex-sans-thai-semibold fs-1">
             ร้าน สุภีครกใหญ่
@@ -29,12 +31,88 @@
             <button type="button" class="btn btn-primary">Sign-up</button>
           </div>
         </header>
-      </div>
+      </div> -->
     <!-- Hero -->
-    <div class="banner">
+
+        <!-- <div class="banner">
 <h1 class="banner">ร้านสุภีครกใหญ่</h1>
 <p>ยินดีต้อนรับ</p>
 <a href="manu.html" class="btn btn--opacity ibm-plex-sans-thai-medium">รายการ</a>
-    </div>
+    </div> -->
+
+
+
+
+  <!-- P'Best Edit -->
+      <!-- ให้ Header อยู่ครอบนอก Footer เช่นกัน -->
+      <Header class="bg-light">
+        <div class="container">
+          <!-- เลือกจากเมนูบน Bootstrap ที่ชื่อว่า Navbar แล้วลองปรับใช้ -->
+
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+           
+        </div>
+      </Header>
+
+
+      <!-- P'Best Edit -->
+      <!--  ทริค พี่มักจะทำ Section ครอบในแต่ละส่วนให้ชัดเจน -->
+      <section>
+        <div class="continer">
+          <div class="row">
+            <div class="col-12 text-center">
+
+              <h1 class="">ร้านสุภีครกใหญ่</h1>
+              <p>ยินดีต้อนรับ</p>
+              <a href="manu.html" class="btn btn--opacity ibm-plex-sans-thai-medium">รายการ</a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+<!-- อย่าลืมดึง Script มาใช้ด้วยนะขิง Bootstrap -->
+ <script src="./assets/js/bootstrap.min.js"></script>
+
 </body>
 </html>
